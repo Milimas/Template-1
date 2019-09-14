@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="469.559" height="423" viewBox="0 0 469.559 423">
+  <g id="image" transform="translate(-1258.883 -741)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="117" cy="117" r="117" transform="translate(1477 741)" fill="#d6d6d6" opacity="0.75"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="80" height="80" transform="translate(1633.558 944.191) rotate(-12)" fill="#ebddfb" opacity="0.75"/>
+    <path id="Polygon_1" data-name="Polygon 1" d="M105.5,0,211,183H0Z" transform="translate(1414.256 805.558) rotate(19)" fill="#e6e6e6" opacity="0.75"/>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(1260 770)" fill="#d6d6d6" stroke="#eee0e0" stroke-width="1" opacity="0.75">
+      <circle cx="58" cy="58" r="58" stroke="none"/>
+      <circle cx="58" cy="58" r="57.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="45" cy="45" r="45" transform="translate(1605 1074)" fill="#ebddfb" opacity="0.75"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="37" height="37" transform="translate(1258.883 1031.392) rotate(-7)" fill="#ebddfb" opacity="0.75"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="71" height="67" transform="translate(1396.008 828.385) rotate(8)" fill="#ebddfb" opacity="0.75"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M27.5,0,55,48H0Z" transform="matrix(0.799, 0.602, -0.602, 0.799, 1614.981, 1028.283)" fill="#d6d6d6" opacity="0.75"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="55.5" cy="55.5" r="55.5" transform="translate(1394 1008)" fill="#d6d6d6" opacity="0.75"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M47.5,0,95,82H0Z" transform="translate(1534 828)" fill="#f5f5f5" opacity="0.75"/>
+  </g>
+</svg>

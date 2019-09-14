@@ -1,0 +1,220 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  background: #ffffff;
+  height: 70px;
+  padding: 12px 40px;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 46px;
+  width: 100%;
+  div {
+    span {
+      color: #4d9277;
+    }
+  }
+}
+header {
+  height: 230px;
+  background: #a244ff;
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+  img {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+body {
+  display: grid;
+  place-items: center;
+  position: relative;
+  & > img {
+    position: absolute;
+  }
+  #svg1 {
+    top: 300px;
+    left: 0;
+    width: 20%;
+    pointer-events: none;
+  }
+  #svg2 {
+    bottom: 0px;
+    right: 0;
+    width: 30%;
+    pointer-events: none;
+  }
+}
+main {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  section {
+    /* First Section */
+    &:nth-child(1) {
+      text-align: center;
+      width: 52%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      h1 {
+        margin-bottom: 30px;
+        font-size: 34px;
+        line-height: 46px;
+        font-weight: bold;
+      }
+      p {
+        margin-bottom: 30px;
+        font-size: 16px;
+      }
+      a {
+        text-decoration: none;
+        padding: 10px 20px;
+        background: #a244ff;
+        border-radius: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        line-height: 32px;
+        transition: 0.3s ease;
+      }
+      a:hover {
+        background: #8e23f8;
+        transition: 0.3s ease;
+      }
+    }
+
+    /* Second Section */
+    &:nth-child(3) {
+      div {
+        float: left;
+        width: 50%;
+        padding: 100px 0;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
+        h1 {
+          font-size: 30px;
+          font-weight: bold;
+          line-height: 40px;
+          margin-bottom: 35px;
+        }
+      }
+      img {
+        float: right;
+      }
+    }
+
+    /* third Section */
+    &:nth-child(5) {
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      width: 52%;
+      & > div {
+        margin: 40px 0;
+        & > div {
+          display: flex;
+          margin-bottom: 20px;
+          h1 {
+            color: #b76eff;
+            font-size: 27px;
+            line-height: 36px;
+            font-weight: bold;
+          }
+          img {
+            margin-right: 20px;
+            height: 36px;
+            width: 36px;
+          }
+        }
+        p {
+          margin-left: 56px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  hr {
+    margin: 70.5px 0;
+    width: 100%;
+    color: #a7a7a7;
+  }
+}
+
+footer {
+  height: 490px;
+  display: grid;
+  align-items: flex-end;
+  text-align: center;
+  width: 100%;
+  & > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #a244ff;
+    width: 100%;
+    height: 331px;
+    & > :nth-child(1) {
+      color: white;
+      margin: 20px 0;
+      font-size: 34px;
+      font-weight: bold;
+      span {
+        color: #4d9277;
+      }
+    }
+    & > :nth-child(2) {
+      margin: 20px 0;
+
+      input {
+        height: 30px;
+        width: 207px;
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 7px 12px 7px;
+        border: none;
+      }
+      a {
+        padding: 8px 14px;
+        text-decoration: none;
+        font-size: 13px;
+        line-height: 17px;
+        color: #a244ff;
+        background: #e0e0e0;
+        border-radius: 5px;
+        transition: 0.3s ease;
+        font-weight: bold;
+      }
+      a:hover {
+        background: #daa3a3;
+        transition: 0.3s ease;
+      }
+    }
+    & > :nth-child(3) {
+      margin: 20px 0;
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        margin: 0 20px;
+        font-size: 20px;
+        line-height: 27px;
+        transition: 0.3s ease;
+      }
+      a:hover {
+        color: #daa3a3;
+        transition: 0.3s ease;
+      }
+    }
+  }
+}
